@@ -50,9 +50,9 @@ try {
 
     // Sender & recipients
     // Use your authenticated Gmail as the From address
-    $mail->setFrom('manikandanips2712@gmail.com', 'Website Contact');
+    $mail->setFrom('email', 'Website Contact');
     // Send to the address where you want to receive messages
-    $mail->addAddress('manikandanips2712@gmail.com', 'Site Owner'); // The email address that will receive the form submissions
+    $mail->addAddress('email', 'Site Owner'); // The email address that will receive the form submissions
     // Let replies go to the person who filled the form
     $mail->addReplyTo($email, $name);
 
